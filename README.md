@@ -15,3 +15,5 @@ default : Ctrl + Shift + E
 windows : Ctrl + Shift + E
 
 macos   : Cmd  + Shift + E
+
+linux 	: Ctrl + Shift + E
