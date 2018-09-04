@@ -9,7 +9,8 @@
 			"suggested_key": {
 				"default": "Ctrl+Shift+E",
 				"windows": "Ctrl+Shift+E",
-				"mac": "Command+Shift+E"
+				"mac": "Command+Shift+E",
+				"linux": "Ctrl+Shift+E"
 			},
 			"description": "Open Extensions Tab"
 		}
