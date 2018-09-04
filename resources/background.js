@@ -1,0 +1,1 @@
+chrome.commands.onCommand.addListener(function(command){if(command=="open-extensions-tab")chrome.tabs.create({url:"chrome://extensions/"});});

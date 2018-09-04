@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "Chrome Extensions Shortcut",
+	"author": "Nico Pr",
+	"version": "1.0",
+	"description": "Add shortcut to open extensions tab",
+	"commands": {
+		"open-extensions-tab": {
+			"suggested_key": {
+				"default": "Ctrl+Shift+E",
+				"windows": "Ctrl+Shift+E",
+				"mac": "Command+Shift+E"
+			},
+			"description": "Open Extensions Tab"
+		}
+	},
+	"background": {
+		"scripts": [
+			"resources/background.js"
+		]
+	}
+}
