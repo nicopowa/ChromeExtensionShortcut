@@ -2,7 +2,7 @@
 
 Chrome extension to add a Chrome extensions tab shortcut
 
-This extension doesn't require any permissions
+This extension requires "tabs" permissions, so it can focus extensions tab if it is already open, or create a new one.
 
 No options to configure
 

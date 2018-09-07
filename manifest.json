@@ -4,6 +4,7 @@
 	"author": "Nico Pr",
 	"version": "1.0",
 	"description": "Add shortcut to open extensions tab",
+	"permissions": ["tabs"],
 	"commands": {
 		"open-extensions-tab": {
 			"suggested_key": {
