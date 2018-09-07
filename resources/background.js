@@ -1,1 +1,1 @@
-chrome.commands.onCommand.addListener(function(command){if(command=="open-extensions-tab")chrome.tabs.query({url:"chrome://extensions/"},function(tabs){if(tabs.length>0)chrome.tabs.update(tabs[0].id,{active:true});else chrome.tabs.create({url:"chrome://extensions/"});})});
+chrome.commands.onCommand.addListener(function(command){if(command=="open-extensions-tab")chrome.tabs.query({url:"chrome://extensions/"},function(tabs){if(tabs.length)chrome.tabs.update(tabs[0].id,{active:true});else chrome.tabs.create({url:"chrome://extensions/"});})});
